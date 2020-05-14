@@ -1,0 +1,19 @@
+h2 {
+    line-height: 30px;
+    color: black;
+    padding-left: 40px;
+    padding-top: 20px;
+}
+
+.city {
+    color: brown;
+}
+
+.g {
+    color: brown;
+}
+
+.checkbox {
+    font-size: small;
+    color: rgb(223, 35, 82);
+}
