@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="pl">
 
 <head>
@@ -10,7 +11,6 @@
 <body>
     <p>Zadanie 24253</p>
 
-    <h2>
         <form action="https://formspree.io/xaypnzzn" method="POST">
 
             <label for="name">imię</label>
@@ -34,20 +34,19 @@
             <br>
 
             <div class="city">
-                <label for="city" id="city">miasto</label>
-                <select>
-                    <option>Warszawa</option>
-                    <option value="Opcja 2">Kraków</option>
-                    <option>Gdańsk</option>
+                <label for="city">miasto</label>
+                <select id="city">
+                    <option value="Warszawa">Warszawa</option>
+                    <option value="Kraków">Kraków</option>
+                    <option value="Gdańsk">Gdańsk</option>
                 </select>
             </div>
 
             <div class="g">
-                <label for="gender" id="gender">płeć</label>
-                <select>
-                    <option>Meżczyzna/Man/Mann</option>
-                    <option value="Opcja 2">Kobieta/Women/Frau</option>
-                </select>
+                <p>płeć</p>
+                <label><input type="radio" name="gender">mężczyzna</label>
+                <label><input type="radio" name="gender">kobieta</label>
+                
             </div>
             <br>
             <label for="message">Treść wiadomości:</label>
@@ -60,7 +59,6 @@
 
             <button type="submit">Wyślij wiadomość</button>
         </form>
-    </h2>
 </body>
 
 </html>
